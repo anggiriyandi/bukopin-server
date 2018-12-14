@@ -18,8 +18,6 @@ public class MessageHandler implements ISORequestListener{
 
     @Override
     public boolean process(ISOSource isos, ISOMsg isomsg) {
-        
-        
         return true;
         
     }

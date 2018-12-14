@@ -13,6 +13,4 @@ public class BukopinServerApplication {
                 
 		SpringApplication.run(BukopinServerApplication.class, args);
 	}
-
 }
-
