@@ -36,7 +36,6 @@ public class MessageHandler implements ISORequestListener {
             Logger.getLogger(MessageHandler.class.getName()).log(Level.SEVERE, null, ex);
         }
         return true;
-
     }
 
     private boolean handleNetman(ISOSource iSOSource, ISOMsg iSOMsg) throws InterruptedException, IOException, ISOException {
